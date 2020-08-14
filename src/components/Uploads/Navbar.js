@@ -16,16 +16,12 @@ export default function Navbar() {
     return (
         <Route>
             <Container>
-			<span className="formtext"></span>
-      <div class="mb-3" align="center">
-      <h1>Uploads</h1>
-	  </div>
-        <Link to="/users" ><Row style={{backgroundColor:"blue",color:"white"}}>
+        		<Link to="/users" ><Row style={{backgroundColor:"blue",color:"white"}}>
 					<Col xs="12" className="p-2" align="center">
 						<div>Users</div>
 					</Col>
 				</Row></Link><br></br>
-        <Link to="/personaldetails" ><Row style={{backgroundColor:"blue",color:"white"}}>
+        		<Link to="/personaldetails" ><Row style={{backgroundColor:"blue",color:"white"}}>
 					<Col xs="12" className="p-2" align="center">
 						<div>Personal details</div>
 					</Col>

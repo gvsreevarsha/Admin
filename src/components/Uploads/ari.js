@@ -2,7 +2,6 @@ import React,{useState} from 'react';
 import File from "./folders/File";
 import Form2 from "./folders/Form2";
 
-
 function Ari() {
     const [open,setOpen] = useState(false);
     const [open1,setOpen1] = useState(false);

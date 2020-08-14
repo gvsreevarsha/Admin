@@ -2,7 +2,6 @@ import React,{useState} from 'react';
 import File from "./folders/File";
 import Form4 from "./folders/Form4";
 
-
 function AreCoCubes() {
     const [open,setOpen] = useState(false);
     const [open1,setOpen1] = useState(false);

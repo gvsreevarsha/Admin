@@ -2,7 +2,6 @@ import React,{useState} from 'react';
 import File from "./folders/File";
 import Form7 from "./folders/Form7";
 
-
 function Ita() {
     const [open,setOpen] = useState(false);
     const [open1,setOpen1] = useState(false);

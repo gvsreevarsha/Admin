@@ -16,6 +16,7 @@
     "chartjs-plugin-datalabels": "^0.7.0",
     "classnames": "^2.2.6",
     "create-react-class": "^15.6.3",
+    "eslint-plugin-react-hooks": "^4.0.8",
     "material-ui-slider": "^3.0.8",
     "react": "^16.8.6",
     "react-bootstrap": "^1.2.2",
