@@ -17,10 +17,9 @@ const Topbar = ({ toggleSidebar }) => {
 
   return (
     <Navbar
-      color="light"
-      light
-      className="navbar shadow-sm p-2 mb-5 bg-white rounded"
+      className="navbar shadow-sm p-2 mb-5 rounded"
       expand="lg"
+      style={{backgroundColor:"#767B91", color:"white"}}
     >
       <Button color="info" onClick={toggleSidebar}>
         <FontAwesomeIcon icon={faAlignLeft} />

@@ -18,7 +18,7 @@ class BtechMarks extends React.Component {
   return (
     <div class="container-fluid">
 
-          <Card color="danger" className="Rounded p-3" >
+          <Alert color="danger" className="Rounded p-3" >
                 <CardTitle align="left">90%</CardTitle>
                 <CardSubtitle align="left">B Tech Percentage <span className="gap"><Button onClick={()=>{this.handleModalbtech()}}>Edit</Button></span></CardSubtitle> 
                   <Modal show={this.state.show} onHide={()=>this.handleModalbtech()} >
@@ -43,7 +43,7 @@ class BtechMarks extends React.Component {
                     </Modal.Body>
                   </Modal>
 
-              </Card>
+              </Alert>
         </div>
 
         );

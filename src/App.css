@@ -17,7 +17,7 @@
   display: flex;
   width: 100%;
   align-items:stretch;
-  background-color: rgb(247, 247, 247);
+  background-color: #C7CCDB;
 }
 
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
@@ -41,20 +41,20 @@ a:focus {
 .sidebar {
   min-width: 250px;
   max-width: 250px;
-  background-color: #152980;
+  background-color: #767B91;
   color: #fff;
   margin-left: -250px;
   transition: all 0.5s;
 }
 
 .sidebar.is-open {
-  background-color: #152980;
+  background-color: #767B91;
   margin-left: 0;
   transition: 0.5s;
 }
 
 .sidebar-header {
-  background: #aa1111;
+  background: #2A324B;
 }
 
 .sidebar-header h3 {

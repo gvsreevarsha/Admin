@@ -84,12 +84,6 @@ class sidebar2 extends React.Component{
                         </NavLink>
                     </NavItem>
                     <NavItem>
-                        <NavLink tag={Link} to={"/requests"}>
-                                <FontAwesomeIcon icon={faReply} className="mr-2" />
-                                Request
-                        </NavLink>
-                    </NavItem>
-                    <NavItem>
                         <NavLink tag={Link} to={"/settings"}>
                                 <FontAwesomeIcon icon={faCog} className="mr-2" />
                                 Settings

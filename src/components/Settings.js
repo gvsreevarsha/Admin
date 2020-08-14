@@ -6,14 +6,14 @@ class Settings extends React.Component{
 	render(){
 		return(
 			<Container fluid>
-				<Row style={{backgroundColor:"blue",color:"white"}}>
+				<Row style={{backgroundColor:"#2A324B",color:"white",fontSize:"14px",fontFamily: "Segoe UI",fontWeight:"700"}}>
 					<Col xs="12" className="p-2" align="center">
 						<div>Change Details</div>
 					</Col>
 				</Row>
 				<Row style={{backgroundColor:"white"}}>
 					<Col>
-          				<form>
+          				<form style={{fontSize:"12px",fontFamily: "Segoe UI",fontWeight:"400",color:"#999999"}}>
                             <Row>
                                 <Col lg="2"></Col>
                                 <Col lg="8">
@@ -23,7 +23,7 @@ class Settings extends React.Component{
                                             Employee ID:
                                         </Form.Label>
                                         <Col lg="8">
-                                            <Form.Control type="text" defaultValue="10110" />
+                                            <Form.Control type="text" defaultValue="10110" style={{fontSize:"12px",fontFamily: "Segoe UI",fontWeight:"400",color:"#999999"}}/>
                                         </Col>
                                     </Form.Group>
                                     <Form.Group as={Row} controlId="First Name">
@@ -31,7 +31,7 @@ class Settings extends React.Component{
                                             First Name:
                                         </Form.Label>
                                         <Col lg="8">
-                                            <Form.Control type="text" defaultValue="Kishor" />
+                                            <Form.Control type="text" defaultValue="Kishor"  style={{fontSize:"12px",fontFamily: "Segoe UI",fontWeight:"400",color:"#999999"}}/>
                                         </Col>
                                     </Form.Group>
                                     <Form.Group as={Row} controlId="Last Name">
@@ -39,7 +39,7 @@ class Settings extends React.Component{
                                             Last Name:
                                         </Form.Label>
                                         <Col lg="8">
-                                            <Form.Control type="text" defaultValue="Buddha" />
+                                            <Form.Control type="text" defaultValue="Buddha"  style={{fontSize:"12px",fontFamily: "Segoe UI",fontWeight:"400",color:"#999999"}}/>
                                         </Col>
                                     </Form.Group>
                                     <Form.Group as={Row} controlId="Email">
@@ -47,7 +47,7 @@ class Settings extends React.Component{
                                             Email:
                                         </Form.Label>
                                         <Col lg="8">
-                                            <Form.Control type="email" />
+                                            <Form.Control type="email"  style={{fontSize:"12px",fontFamily: "Segoe UI",fontWeight:"400",color:"#999999"}}/>
                                         </Col>
                                     </Form.Group>
                                     <Form.Group as={Row} controlId="Phone">
@@ -55,7 +55,7 @@ class Settings extends React.Component{
                                             Phone:
                                         </Form.Label>
                                         <Col lg="8">
-                                            <Form.Control type="text"/>
+                                            <Form.Control type="text" style={{fontSize:"12px",fontFamily: "Segoe UI",fontWeight:"400",color:"#999999"}}/>
                                         </Col>
                                     </Form.Group>
                                     <Form.Group as={Row} controlId="Campus">
@@ -63,7 +63,7 @@ class Settings extends React.Component{
                                             Campus:
                                         </Form.Label>
                                         <Col lg="8">
-                                            <Form.Control as="select">
+                                            <Form.Control as="select" style={{fontSize:"12px",fontFamily: "Segoe UI",fontWeight:"400",color:"#999999"}}>
                                                 <option>Bengaluru</option>
                                                 <option>Vizag</option>
                                                 <option>Hyderabad</option>
@@ -75,7 +75,7 @@ class Settings extends React.Component{
                                             Institution:
                                         </Form.Label>
                                         <Col lg="8">
-                                            <Form.Control type="text" defaultValue="Gitam School Of Technology" />
+                                            <Form.Control type="text" defaultValue="Gitam School Of Technology" style={{fontSize:"12px",fontFamily: "Segoe UI",fontWeight:"400",color:"#999999"}} />
                                         </Col>
                                     </Form.Group>
                                     <Form.Group as={Row} controlId="Department">
@@ -83,7 +83,7 @@ class Settings extends React.Component{
                                             Department:
                                         </Form.Label>
                                         <Col lg="8">
-                                            <Form.Control as="select">
+                                            <Form.Control as="select" style={{fontSize:"12px",fontFamily: "Segoe UI",fontWeight:"400",color:"#999999"}}>
                                                  <option>T&P</option>
                                                 <option>FC</option>
                                                 <option>Staff</option>
@@ -95,11 +95,11 @@ class Settings extends React.Component{
                                             Image:
                                         </Form.Label>
                                         <Col lg="8">
-                                            <Form.Control type="file" />
+                                            <Form.Control type="file" style={{fontSize:"12px",fontFamily: "Segoe UI",fontWeight:"400",color:"#999999"}} />
                                         </Col>
                                     </Form.Group>
                                     <Row>
-                                        <Col align="center"><Button variant="primary" type="submit">Submit</Button></Col>
+                                        <Col align="center"><Button type="submit" style={{backgroundColor:"#2A324B",borderColor:"#2A324B",color:"white"}}>Submit</Button></Col>
                                     </Row>
                                     <Row>&nbsp;</Row>
                                 </Col>
@@ -108,14 +108,14 @@ class Settings extends React.Component{
           				</form>
                     </Col>
             	</Row>
-                <Row style={{backgroundColor:"blue",color:"white"}}>
+                <Row style={{backgroundColor:"#2A324B",color:"white",fontSize:"14px",fontFamily: "Segoe UI",fontWeight:"700"}}>
                     <Col xs="12" className="p-2" align="center">
-                        <div>Change Details</div>
+                        <div>Change Password</div>
                     </Col>
                 </Row>
                 <Row style={{backgroundColor:"white"}}>
                     <Col>
-                        <form>
+                        <form style={{fontSize:"12px",fontFamily: "Segoe UI",fontWeight:"400",color:"#999999"}}>
                             <Row>
                                 <Col lg="2"></Col>
                                 <Col lg="8">
@@ -125,7 +125,7 @@ class Settings extends React.Component{
                                             Old Password:
                                         </Form.Label>
                                         <Col lg="8">
-                                            <Form.Control type="password" />
+                                            <Form.Control type="password" style={{fontSize:"12px",fontFamily: "Segoe UI",fontWeight:"400",color:"#999999"}} />
                                         </Col>
                                     </Form.Group>
                                     <Form.Group as={Row} controlId="New Password">
@@ -133,7 +133,7 @@ class Settings extends React.Component{
                                             New Password:
                                         </Form.Label>
                                         <Col lg="8">
-                                            <Form.Control type="password" />
+                                            <Form.Control type="password" style={{fontSize:"12px",fontFamily: "Segoe UI",fontWeight:"400",color:"#999999"}} />
                                         </Col>
                                     </Form.Group>
                                     <Form.Group as={Row} controlId="Confirm Password">
@@ -141,11 +141,11 @@ class Settings extends React.Component{
                                             Confirm Password:
                                         </Form.Label>
                                         <Col lg="8">
-                                            <Form.Control type="password" />
+                                            <Form.Control type="password" style={{fontSize:"12px",fontFamily: "Segoe UI",fontWeight:"400",color:"#999999"}} />
                                         </Col>
                                     </Form.Group>
                                      <Row>
-                                        <Col align="center"><Button variant="primary" type="submit">Submit</Button></Col>
+                                        <Col align="center"><Button type="submit" style={{backgroundColor:"#2A324B",borderColor:"#2A324B",color:"white"}}>Submit</Button></Col>
                                     </Row>
                                     <Row>&nbsp;</Row>
                                 </Col>

@@ -22,7 +22,7 @@ class ARI extends React.Component {
           <Row>
             <Col sm="12">
               <Card className="Rounded p-3">
-                <CardSubtitle align="left">ARI</CardSubtitle>
+                <CardSubtitle align="left">Assesment Report Internal</CardSubtitle>
                 <hr></hr>
                 <BarChart/>
                 <br></br>

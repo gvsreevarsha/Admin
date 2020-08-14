@@ -8,20 +8,20 @@ const data = {
   datasets: [
     {
       label: 'Attendance',
-      backgroundColor: 'red',
-      borderColor: 'red',
+      backgroundColor: 'lightblue',
+      borderColor: 'lightblue',
       borderWidth: 1,
-      hoverBackgroundColor: 'red',
-      hoverBorderColor: 'red',
+      hoverBackgroundColor: 'lightblue',
+      hoverBorderColor: 'lightblue',
       data: [65, 59, 80, 81, 56, 55, 40]
     },
     {
       label: 'Average Attendance',
-      backgroundColor: 'green',
-      borderColor: 'green',
+      backgroundColor: 'pink',
+      borderColor: 'pink',
       borderWidth: 1,
-      hoverBackgroundColor: 'green',
-      hoverBorderColor: 'green',
+      hoverBackgroundColor: 'pink',
+      hoverBorderColor: 'pink',
       data: [40, 65, 59, 80, 81, 56, 55 ]
     }
   ]

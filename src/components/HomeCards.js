@@ -7,111 +7,100 @@ import { Link } from 'react-router-dom';
 class HomeCards extends Component{
     render(){
         return(
-            <div>
+            <div className="container">
                 <div className="row">
-                    <div className="col-12 col-md-3">
+                    <div className="col-xs-12 col-lg-3 col-md-6 p-3">
                         <Card>
-                        <Card.Body>
-                            <Card.Title>Eligible</Card.Title>
+                        <Card.Body className="p-3">
+                            <Card.Text style={{fontSize:"12px",fontFamily: "Segoe UI"}}>Eligible</Card.Text>
                             <Card.Text>
-                                &nbsp;
-                                <p align="right">420</p>
+                                <p align="right" style={{fontSize:"14px",fontFamily: "Segoe UI"}}>420</p>
                             </Card.Text>
                         </Card.Body>
                         </Card>
                     </div>
-                    <div className="col-12 col-md-3">
-                            <Card>
-                            <Card.Body>
-                            <Card.Title>Placed</Card.Title>
-                            <Card.Text>
-                                &nbsp;
-                                <p align="right">350</p>
-                            </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </div>
-                    <div className="col-12 col-md-3">
+                    <div className="col-xs-12 col-lg-3 col-md-6 p-3">
                         <Card>
-                        <Card.Body>
-                            <Card.Title>Not Placed</Card.Title>
+                        <Card.Body className="p-3">
+                            <Card.Text style={{fontSize:"12px",fontFamily: "Segoe UI"}}>Placed</Card.Text>
                             <Card.Text>
-                                &nbsp;
-                                <p align="right">70</p>
+                                <p align="right" style={{fontSize:"14px",fontFamily: "Segoe UI"}}>350</p>
                             </Card.Text>
                         </Card.Body>
                         </Card>
                     </div>
-                    <div className="col-12 col-md-3">
-                            <Card>
-                            <Card.Body>
-                            <Card.Title>Total Drives</Card.Title>
-                            <Card.Text>
-                                &nbsp;
-                                <p align="right">50</p>
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </div>
-                </div>
-                &nbsp;
-                <div className="row">
-                    <div className="col-12 col-md-3">
+                    <div className="col-xs-12 col-lg-3 col-md-6 p-3">
                         <Card>
-                        <Card.Body>
-                            <Card.Title>Highest Package</Card.Title>
+                        <Card.Body className="p-3">
+                            <Card.Text style={{fontSize:"12px",fontFamily: "Segoe UI"}}>Not Placed</Card.Text>
                             <Card.Text>
-                               &nbsp;
-                               <p align="right">50LPA</p>
+                                <p align="right" style={{fontSize:"14px",fontFamily: "Segoe UI"}}>70</p>
                             </Card.Text>
                         </Card.Body>
                         </Card>
                     </div>
-                    <div className="col-12 col-md-3">
-                            <Card>
-                            <Card.Body>
-                            <Card.Title>Average Package</Card.Title>
-                            <Card.Text>
-                                &nbsp;
-                                <p align="right">15LPA</p>
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </div>
-                    <div className="col-12 col-md-3">
+                    <div className="col-xs-12 col-lg-3 col-md-6 p-3">
                         <Card>
-                        <Card.Body>
-                            <Card.Title>Least Package</Card.Title>
+                        <Card.Body className="p-3">
+                            <Card.Text style={{fontSize:"12px",fontFamily: "Segoe UI"}}>Total Drives</Card.Text>
                             <Card.Text>
-                               &nbsp;
-                               <p align="right">4LPA</p>
+                                <p align="right" style={{fontSize:"14px",fontFamily: "Segoe UI"}}>50</p>
                             </Card.Text>
                         </Card.Body>
                         </Card>
                     </div>
-                    <div className="col-12 col-md-3">
-                            <Card>
-                            <Card.Body>
-                            <Card.Title>Total Number of Offers</Card.Title>
+                    <div className="col-xs-12 col-lg-3 col-md-6 p-3">
+                        <Card>
+                        <Card.Body className="p-3">
+                            <Card.Text style={{fontSize:"12px",fontFamily: "Segoe UI"}}>Highest Package</Card.Text>
                             <Card.Text>
-                                &nbsp;
-                                <p align="right">330</p>
-                                </Card.Text>
-                            </Card.Body>
+                                <p align="right" style={{fontSize:"14px",fontFamily: "Segoe UI"}}>50 LPA</p>
+                            </Card.Text>
+                        </Card.Body>
+                        </Card>
+                    </div>
+                    <div className="col-xs-12 col-lg-3 col-md-6 p-3">
+                        <Card>
+                        <Card.Body className="p-3">
+                            <Card.Text style={{fontSize:"12px",fontFamily: "Segoe UI"}}>Average Package</Card.Text>
+                            <Card.Text>
+                                <p align="right" style={{fontSize:"14px",fontFamily: "Segoe UI"}}>15LPA</p>
+                            </Card.Text>
+                        </Card.Body>
+                        </Card>
+                    </div>
+                    <div className="col-xs-12 col-lg-3 col-md-6 p-3">
+                        <Card>
+                        <Card.Body className="p-3">
+                            <Card.Text style={{fontSize:"12px",fontFamily: "Segoe UI"}}>Least Package</Card.Text>
+                            <Card.Text>
+                                <p align="right" style={{fontSize:"14px",fontFamily: "Segoe UI"}}>4LPA</p>
+                            </Card.Text>
+                        </Card.Body>
+                        </Card>
+                    </div>
+                    <div className="col-xs-12 col-lg-3 col-md-6 p-3">
+                        <Card>
+                        <Card.Body className="p-3">
+                            <Card.Text style={{fontSize:"12px",fontFamily: "Segoe UI"}}>Total Number Of Offers</Card.Text>
+                            <Card.Text>
+                                <p align="right" style={{fontSize:"14px",fontFamily: "Segoe UI"}}>330</p>
+                            </Card.Text>
+                        </Card.Body>
                         </Card>
                     </div>
                 </div>
                 &nbsp;
                 <div className='row'>
-                    <div className='col-12 col-sm-6 col-md-6'>
+                    <div className='col-xs-12 col-lg-6 col-md-12 p-2'>
                         <Card>
                             <Card.Body>
                                 <div className="row">
                                 <div className='col-9'>
-                                    <Card.Title>Notice Board-Training</Card.Title>
+                                    <Card.Title class="p-2" style={{fontSize:"20px",fontFamily: "Segoe UI"}}>Notice Board-Training</Card.Title>
                                 </div>
                                <NavLink tag={Link} to={"/TrainingBoardEdit"}>
-                               <Button>Edit</Button>
+                               <Button style={{backgroundColor:"#2A324B",color:"white",borderColor:"#2A324B"}}>Edit</Button>
                                </NavLink>
                                 </div>
                                 &nbsp;
@@ -159,15 +148,15 @@ class HomeCards extends Component{
                             </Card.Body>
                         </Card> 
                     </div>
-                    <div className='col-12 col-sm-6 col-md-6'>
+                    <div className='col-xs-12 col-lg-6 col-md-12 p-2'>
                         <Card>
                         <Card.Body>
                                 <div className="row">
                                 <div className='col-9'>
-                                    <Card.Title>Notice Board-Placements</Card.Title>
+                                    <Card.Title class="p-2" style={{fontSize:"20px",fontFamily: "Segoe UI"}}>Notice Board-Placements</Card.Title>
                                 </div>
                                 <NavLink tag={Link} to={"/PlacementEditBoard"}>
-                                    <Button>Edit</Button>
+                                    <Button style={{backgroundColor:"#2A324B",color:"white",borderColor:"#2A324B"}}>Edit</Button>
                                 </NavLink>
                                 </div>
                                 &nbsp;

@@ -19,33 +19,33 @@ class AllStudents extends React.Component{
 		return(
 			<Container fluid>
 				<Row>
-					<Col class="Heading">
+					<Col style={{fontSize:"20px",fontFamily: "Segoe UI",fontWeight:"600"}}>
 					Manage Students
 					</Col>
 				</Row>
-				<Row style={{backgroundColor:"blue",color:"white"}}>
-					<Col xs="6" className="p-2">
+				<Row style={{backgroundColor:"#2A324B",color:"white"}}>
+					<Col xs="6" className="p-2" style={{fontSize:"14px",fontFamily: "Segoe UI",fontWeight:"700"}}>
 						<div>Search Filter</div>
 					</Col>
-					<Col xs="6" className="p-2">
-						<div align="right">Total Students:</div>
+					<Col xs="6" className="p-2" style={{fontSize:"14px",fontFamily: "Segoe UI",fontWeight:"400"}}>
+						<div align="right">Total Students:<b>0</b></div>
 					</Col>
 				</Row>
 				<Row style={{backgroundColor:"white"}}>
 					<Col>
           				<form>
-          					<Row class="p-2" style={{marginTop:5}}>
-          						<Col style={{fontSize:15}}>Education Filter</Col>
+          					<Row class="p-2" style={{marginTop:5,fontSize:"14px",fontFamily: "Segoe UI",fontWeight:"600"}}>
+          						<Col>Education Filter</Col>
           					</Row>
-            				<hr style={{margin:2}}></hr>
-            				<Row>	
+            				<hr style={{margin:2,marginBottom:4}}></hr>
+            				<Row className="p-2" style={{fontSize:"12px",fontFamily: "Segoe UI",fontWeight:"400",color:"#999999"}}>	
             					<Col lg="3" md="6" xs="12">
             						<Row>
             							<Col>Degree</Col>
             						</Row>
             						<Row>
             							<Col>
-            								<select name="degree" class="runningtext container">
+            								<select name="degree" class="runningtext container p-2" style={{fontSize:"12px",fontFamily: "Segoe UI",fontWeight:"400",borderColor:"#999999",color:"#999999"}}>
                             					<option value="Any">Any</option>
                             					<option value="BTech">BTech</option>
                             					<option value="MBA">MBA</option>
@@ -77,16 +77,16 @@ class AllStudents extends React.Component{
             					</Col>
                                 <Col lg="1" md="12" xs="12">&nbsp;</Col>
             				</Row>
-            				<Row class="p-2" style={{marginTop:5}}>
+            				<Row class="p-2" style={{fontSize:"14px",fontFamily: "Segoe UI",fontWeight:"600"}}>
           						<Col style={{fontSize:15}}>Other Filter</Col>
           					</Row>
             				<hr style={{margin:2,marginBottom:4}}></hr>
-            				<Row>
+            				<Row className="p-2" style={{fontSize:"12px",fontFamily: "Segoe UI",fontWeight:"400",color:"#999999"}}>
 								<Col lg="2" md="4" xs="12">
 									Batch
 								</Col>
 								<Col lg="3" md="8" xs="12">
-                        	    	<select name="batch" class="runningtext container">
+                        	    	<select name="batch" class="runningtext container p-1"  style={{fontSize:"12px",fontFamily: "Segoe UI",fontWeight:"400",borderColor:"#999999",color:"#999999"}}>
                            	    		<option value="nill">No Preference</option>
                                 		<option value="2016" >2016</option>
                                 		<option value="2017" >2017</option>
@@ -101,7 +101,7 @@ class AllStudents extends React.Component{
                         				Sort By
                         			</Col>
                         			<Col lg="3" md="8"  xs="12">
-                            			<select class="runningtext container" name="sortby">
+                            			<select name="sortby" class="runningtext container p-1"  style={{fontSize:"12px",fontFamily: "Segoe UI",fontWeight:"400",borderColor:"#999999",color:"#999999"}}>
                                 			<option value="2">Name</option>
                                 			<option value="5">Branch</option>
                                 			<option value="1">Roll No</option>
@@ -112,12 +112,12 @@ class AllStudents extends React.Component{
                 					</Col>
                 				</Row>
                 				<br></br>
-                    			<Row>
+                    			<Row className="p-2" style={{fontSize:"12px",fontFamily: "Segoe UI",fontWeight:"400",color:"#999999"}}>
                 					<Col lg="2" md="4" xs="12">
                     					Gender
                     				</Col>
                     				<Col lg="3" md="8" xs="12">
-                            			<select class="runningtext container" name="gender">
+                            			<select class="runningtext container p-1" name="gender" style={{fontSize:"12px",fontFamily: "Segoe UI",fontWeight:"400",borderColor:"#999999",color:"#999999"}}>
                                 			<option value="nill">No Preference</option>
                                 			<option value="M" >Male</option>
                                 			<option value="F" >Female</option>
@@ -128,7 +128,7 @@ class AllStudents extends React.Component{
                         				Eligible For Job
                         			</Col>
                         			<Col lg="3" md="8" xs="12">
-                            			<select class="runningtext container" name="jobeligible">
+                            			<select class="runningtext container p-1" name="jobeligible" style={{fontSize:"12px",fontFamily: "Segoe UI",fontWeight:"400",borderColor:"#999999",color:"#999999"}}>
                                 			<option value="yes">Yes</option>
                                 			<option value="no">No</option>
                             			</select>
@@ -136,12 +136,17 @@ class AllStudents extends React.Component{
                                     <Col lg="1" md="12" xs="12">&nbsp;</Col>
                 				</Row>
                 				<br></br>
-                    			<Row>
+                    			<Row className="p-2" style={{fontSize:"12px",fontFamily: "Segoe UI",fontWeight:"400",color:"#999999"}}>
+                                    <Col lg="2" md="4" xs="12">&nbsp;
+                                    </Col>
+                                    <Col lg="3" md="8" xs="12">&nbsp;
+                                    </Col>
+                                    <Col lg="1" md="12" xs="12">&nbsp;</Col>
                         			<Col lg="2" md="4" xs="12">
 										Jobs In Hand
 									</Col>
                         			<Col lg="3" md="8" xs="12">
-                            			<select name="jobsinhand" class="runningtext container">
+                            			<select name="jobsinhand" class="runningtext container p-1"  style={{fontSize:"12px",fontFamily: "Segoe UI",fontWeight:"400",borderColor:"#999999",color:"#999999"}}>
                                 			<option value="nill">No Preference</option>
                                 			<option value="0">0 jobs</option>
                                 			<option value="1">less tha or equal to 1 job</option>
@@ -151,16 +156,12 @@ class AllStudents extends React.Component{
                             			</select>
                 					</Col>
                                     <Col lg="1" md="12" xs="12">&nbsp;</Col>
-                					<Col>
-                					</Col>
-                					<Col>
-                					</Col>
                 			</Row>
-                			<Row class="p-2" style={{marginTop:5}}>
-          						<Col style={{fontSize:15}}>Other Filter</Col>
-          					</Row>
+                			<Row class="p-2" style={{fontSize:"14px",fontFamily: "Segoe UI",fontWeight:"600"}}>
+                                <Col style={{fontSize:15}}>Advance Filter</Col>
+                            </Row>
             				<hr style={{margin:2,marginBottom:4}}></hr>
-            				<Row>
+            				<Row className="p-2" style={{fontSize:"12px",fontFamily: "Segoe UI",fontWeight:"400",color:"#999999"}}>
 								<Col lg="1" md="6" xs="12" className="p-2 pl-4">
 									10th
 								</Col>
@@ -177,8 +178,8 @@ class AllStudents extends React.Component{
                                 <Col lg="1" md="12" xs="12">&nbsp;</Col>
                 			</Row>
                 			<br></br>
-                			<Row>
-                    			<Col lg="2" md="6" xs="12" className="p-2 pl-4">
+                			<Row className="p-2" style={{fontSize:"12px",fontFamily: "Segoe UI",fontWeight:"400",color:"#999999"}}>
+                    			<Col lg="1" md="6" xs="12" className="p-2 pl-4">
                         			Backlogs
                         			(never)
                         		</Col>
@@ -189,9 +190,15 @@ class AllStudents extends React.Component{
                         		<Col></Col>
                         		<Col></Col>
                 			</Row>
+                            <Row>
+                                <Col align="center"><Button type="Submit" className="p-1" style={{backgroundColor:"#2A324B"}}>Submit</Button></Col>
+                            </Row>
+                            <Row>&nbsp;</Row>
             			</form>	
             		</Col>
             	</Row>
+                <Row>&nbsp;
+                </Row>
 			</Container>
 		);
 	}

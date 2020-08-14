@@ -18,7 +18,7 @@ class TwelveMarks extends React.Component {
   return (
     <div class="container-fluid">
 
-          <Card color="warning" className="Rounded p-3" >
+          <Alert color="warning" className="Rounded p-3" >
                 <CardTitle align="left">90%</CardTitle>
                 <CardSubtitle align="left">Inter Percentage <span className="gap"><Button onClick={()=>{this.handleModaltwelve()}}>Edit</Button></span></CardSubtitle> 
                   <Modal show={this.state.show} onHide={()=>this.handleModaltwelve()} >
@@ -43,7 +43,7 @@ class TwelveMarks extends React.Component {
                     </Modal.Body>
                   </Modal>
 
-              </Card>
+              </Alert>
         </div>
 
         );

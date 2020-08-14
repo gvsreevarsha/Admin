@@ -44,7 +44,7 @@ const SideBar = ({ isOpen, toggle }) => (
           </NavLink>
         </NavItem>
         <NavItem>
-          <NavLink tag={Link} to={"/individualstudent"}>
+          <NavLink tag={Link} to={"/IndividualStudentEntry"}>
             <FontAwesomeIcon icon={faChalkboardTeacher} className="mr-2" />
             Individual student
           </NavLink>
@@ -59,12 +59,6 @@ const SideBar = ({ isOpen, toggle }) => (
           <NavLink tag={Link} to={"/Uploads"}>
             <FontAwesomeIcon icon={faUpload} className="mr-2" />
             Uploads
-          </NavLink>
-        </NavItem>
-        <NavItem>
-          <NavLink tag={Link} to={"/requests"}>
-            <FontAwesomeIcon icon={faReply} className="mr-2" />
-            Request
           </NavLink>
         </NavItem>
 

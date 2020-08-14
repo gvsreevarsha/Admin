@@ -9,7 +9,7 @@ class NoticeTraningmore extends Component{
             <div>
                 <Card >
                         <Card.Body>
-                            <Card.Title><h3 align='center'>Notice Board-Training</h3></Card.Title>
+                            <Card.Title><h3 align='center' style={{fontSize:"20px",fontFamily: "Segoe UI"}}>Notice Board-Training</h3></Card.Title>
                             &nbsp;
                             <Card.Text>
                                 <div>

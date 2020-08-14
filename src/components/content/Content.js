@@ -65,7 +65,6 @@ const Content = ({ sidebarIsOpen, toggleSidebar }) => (
             <HomeCards />
             &nbsp;
             <div>
-            <Footer/>
             </div>
           </div>
         )}
@@ -73,7 +72,7 @@ const Content = ({ sidebarIsOpen, toggleSidebar }) => (
       <Route exact path="/calendar" component={() =><div><Calender/></div>} />
       <Route
         exact
-        path="/individualstudent"
+        path="/IndividualStudentEntry"
         component={() => <div><IndividualStudentEntry/></div>}
       />
       <Route exact path="/allstudents" component={() =><div><AllStudents/></div>} />
@@ -82,7 +81,6 @@ const Content = ({ sidebarIsOpen, toggleSidebar }) => (
            <Navbar/>           
         </div>
       } />
-      <Route exact path="/requests" component={() => "Request"} />
       <Route exact path="/settings" component={() =><div><Settings/></div>} />
       <Route exact path="/Page-1" component={() => "Page-1"} />
       <Route exact path ="/trainingdashboardmore" component={()=>
@@ -124,6 +122,7 @@ const Content = ({ sidebarIsOpen, toggleSidebar }) => (
            <Route path="/companydetails" component={Companydetails} />
 
     </Switch>
+    <Footer/>
   </Container>
 );
 

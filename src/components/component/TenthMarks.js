@@ -18,7 +18,7 @@ class TenthMarks extends React.Component {
   return (
     <div class="container-fluid">
 
-          <Card color="success" className="Rounded p-3" >
+          <Alert color="success" className="Rounded p-3" >
                 <CardTitle align="left">90%</CardTitle>
                 <CardSubtitle align="left">Tenth Percentage <span className="gap"><Button onClick={()=>{this.handleModaltenth()}}>Edit</Button></span></CardSubtitle> 
                   <Modal show={this.state.show} onHide={()=>this.handleModaltenth()} >
@@ -43,7 +43,7 @@ class TenthMarks extends React.Component {
                     </Modal.Body>
                   </Modal>
 
-              </Card>
+              </Alert>
         </div>
 
         );

@@ -30,7 +30,7 @@ class IndividualStudent extends React.Component {
   render(){
   return (
     <div className="IndividualStudent">
-        <div class="container-fluid">
+        <div class="container">
             <br></br>
             <Row>
               <Col md="4">
