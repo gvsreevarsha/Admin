@@ -3,6 +3,9 @@ import { makeStyles } from '@material-ui/core/styles';
 import Typography from '@material-ui/core/Typography';
 import Slider from '@material-ui/core/Slider';
 import { withStyles } from '@material-ui/core/styles';
+import Axios from 'axios';
+import AllStudents from './Allstudents';
+
 const useStyles = makeStyles({
   root: {
     color:"green",
@@ -41,14 +44,17 @@ const PrettoSlider = withStyles({
   },
 })(Slider);
 
-export function DoubleRangeSlider() {
+export function DoubleRangeSlider(props) {
    const classes = useStyles();
   const [value, setValue] = React.useState([0, 10]);
-
   const handleChange = (event, newValue) => {
     setValue(newValue);
+     const obj = {
+    value1 : value[0],
+    value2 : value[1]
+    };
+    Axios.post("http://localhost/GBGCGCV-2.0/admin/src/components/Allstudent-details.php",obj).then(res => console.log(res.data));
   };
-
   return (
     <div>
       <Typography id="range-slider" gutterBottom>
@@ -63,6 +69,7 @@ export function DoubleRangeSlider() {
         aria-labelledby="range-slider"
         getAriaValueText={valuetext}
       />
+      //<AllStudents value={value}/>
     </div>
   );
 }
