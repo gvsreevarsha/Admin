@@ -140,7 +140,7 @@ class Settings extends React.Component {
     };
     console.log(obj);
     Axios.post(
-      "http://localhost/GCGC_V2.0/updateSettings.php?id=" + 700050,
+      "http://localhost/GCGC_V2.0/updateSettings.php?id=" + 700136,
       obj
     ).then((res) => console.log(res.data), this.setState({ redirect: true }));
   }
@@ -153,7 +153,7 @@ class Settings extends React.Component {
     };
     console.log(obj);
     Axios.post(
-      "http://localhost/GCGC_V2.0/updatePassword.php?id=" + 10110,
+      "http://localhost/GCGC_V2.0/updatePassword.php?id=" + 700050,
       obj
     ).then((res) => console.log(res.data), this.setState({ redirect: true }));
   }
