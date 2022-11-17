@@ -27,7 +27,7 @@
     "react-multiselect-checkboxes": "^0.1.1",
     "react-redux-form": "^1.16.14",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "^3.0.1",
+    "react-scripts": "^5.0.1",
     "reactstrap": "^6.5.0"
   },
   "scripts": {
